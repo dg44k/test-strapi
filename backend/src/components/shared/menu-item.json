@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_menu_items",
+  "info": {
+    "displayName": "MenuItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleMenuItem": {
+      "type": "string",
+      "required": true
+    },
+    "UrlMenuItem": {
+      "type": "string"
+    }
+  }
+}

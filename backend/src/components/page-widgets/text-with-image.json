@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_widgets_text_with_images",
+  "info": {
+    "displayName": "text-with-image",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Text": {
+      "type": "blocks"
+    }
+  }
+}

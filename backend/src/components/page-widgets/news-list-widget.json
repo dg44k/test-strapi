@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_widgets_news_list_widgets",
+  "info": {
+    "displayName": "news-list-widget"
+  },
+  "options": {},
+  "attributes": {
+    "mock": {
+      "type": "string"
+    }
+  }
+}

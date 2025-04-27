@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_settings",
+  "info": {
+    "singularName": "menu-item-setting",
+    "pluralName": "menu-settings",
+    "displayName": "MenuSettings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "headerMenu": {
+      "displayName": "MenuItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-item"
+    },
+    "footerMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-item"
+    }
+  }
+}

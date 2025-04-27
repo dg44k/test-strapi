@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_widgets_two_columns_texts",
+  "info": {
+    "displayName": "two-columns-text"
+  },
+  "options": {},
+  "attributes": {
+    "LeftColumn": {
+      "type": "blocks"
+    },
+    "RightColumn": {
+      "type": "blocks"
+    }
+  }
+}

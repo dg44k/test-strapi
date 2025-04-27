@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_widgets_hero_blocks",
+  "info": {
+    "displayName": "Hero-block"
+  },
+  "options": {},
+  "attributes": {
+    "Background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  }
+}

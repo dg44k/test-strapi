@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_list",
+  "info": {
+    "singularName": "news-item",
+    "pluralName": "news-list",
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "datePublished": {
+      "type": "datetime",
+      "required": true
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Название новости"
+    },
+    "isPublished": {
+      "type": "boolean",
+      "default": false
+    },
+    "wysiwyg": {
+      "type": "blocks"
+    },
+    "news_categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::news-category.news-category",
+      "inversedBy": "news"
+    }
+  }
+}
